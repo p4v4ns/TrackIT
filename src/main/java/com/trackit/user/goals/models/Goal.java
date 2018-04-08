@@ -9,7 +9,6 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name="Goal")
 public class Goal {
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
